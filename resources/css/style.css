@@ -1,0 +1,130 @@
+body {
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  font-size: 22px;
+}
+
+.header {
+  height: 69px;
+  width: 1200px;
+  display: flex;
+  border-bottom: 1px solid seashell;
+  padding-bottom: 20px;
+  position: fixed;
+  background-color: black;
+  z-index: 5
+}
+
+.logo {
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 500px;
+  padding-bottom: 10px;
+  display: inline;
+}
+
+nav a {
+  color: seashell!important;
+  padding: 20px 8px;
+  display: inline-block;
+}
+
+.mission-background {
+  height: 700px;
+  width: 1200px;
+  background-image: url(../images/img-mission-background.jpg);
+}
+
+.our-mission {
+  background-color: black;
+  text-align: center;
+  position: relative;
+  top: 350px;
+  padding: 1px;
+}
+
+#tea-of-the-month {
+  text-align: center;
+  width: 1200px;
+  padding-top: 20px;
+}
+
+#subheading {
+  text-align: center;
+  width: 1200px;
+}
+
+#berry,
+#rum,
+#donut,
+#ave,
+#bizarre {
+  text-align: center;
+}
+
+.images-container1,
+.images-container2 {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+}
+
+.images-container1 img,
+.images-container2 img  {
+  width: 300px;
+  height: 200px;
+  padding: 0px 10px;
+}
+
+.berry,
+.rum,
+.donut,
+.ave,
+.bizarre {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.location-background {
+  text-align: center;
+  position: relative;
+  top: 100px;
+  width: 1200px;
+}
+
+.location-boxes {
+  display: flex;
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.downtown,
+.east-bayside,
+.oakdale {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.contact {
+  height: 200px;
+  text-align: center;
+  width: 1200px;
+}
+
+.footer {
+  font-size: 20px!important;
+  text-align: left;
+  padding-left: 20px;
+}
